@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: oblique;
+    color: red;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.buscador a{
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(109, 54, 12, 0.555);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bloque{
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.letras{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.let{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    font-size: 1s0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    color: red;
+}
+
+h5{
+    color: red;
+}
+
+.conocenos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 5px;
+    text-align: center;
+}
+
+.libros-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 5px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cont  h4 {
+    width: 100%;
+    text-align: left;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin: 20px;
+    text-align: left;
+    text-size-adjust: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    background-color: rgba(109, 54, 12, 0.555);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.uno{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.dos{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.tres{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.cuatro{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn{
+    background: rgb(185, 61, 61);
+    color: white;
+    gap: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background: rgb(245, 197, 40);
+}
+
+.cont h4{
+    padding: 10px;
+}
+
+.libros h4{
+    padding: 10px;
+}
+
+.container h4{
+    margin-bottom: 10px;
+}
